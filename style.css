@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bgimg{
+  height: 140vh;
+  background: url(img2.jpg);background-size:cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  position: absolute;
+  top:40%;
+  transform: translateY(-50%);
+  padding: 0;
+  margin:0;
+  text-align:center;
+  font-size: 5em;
+  color: rgb(207, 252, 7);
+  text-transform: uppercase;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  mix-blend-mode: overlay;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 2);
+  width: 100%
+}
+
+.logo{
+  color:#F2121F;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+h6{
+  position: absolute;
+  top:90%;
+  left: 25%;
+  transform: translateY(-50%);
+  padding: 0;
+  margin:0;
+  text-align: center;
+  font-size: 5em;
+  color: rgb(207, 252, 7);
+  text-transform: uppercase;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  mix-blend-mode: overlay;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 2);
+  width: 70%;
+}
+
+.menu{
+  font-size: 30px;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  box-shadow:0 5px 10px rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 2);
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style: none;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  box-shadow:0 5px 10px rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 2);
+  height:20vh;
+
+}
+
+
+ul li a {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  color: #f3f23f;
+  padding: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: #F2121F;
+  text-shadow: 0 5px 10px #fff;
+}
+
+.About { 
+  color: #f3f23f;
+  font-size: 25px;
+  float: left;
+  width: 35%;
+  font-family: 'Changa', sans-serif;
+
+}
+
+.Galery{
+  font-size: 25px;
+  width:40%;
+}
+
+#me {
+  width: 35%;
+  height: 30%;
+}
+
+.contact {
+  float: right;
+  width: 55%;
+  font-family: 'Changa', sans-serif;
+
+}
+
+.social {
+  font-size: 60px;
+  position: absolute;
+  top:140%;
+  left: 60%;
+}   
+
+.social p {
+  font-size: 45px;
+  font-family: 'Changa', sans-serif;
+  color: #f3f23f;
+}
+
+.social a {
+  text-decoration: none;
+  color: #f3f23f;
+  padding: 50px;
+  display: inline-block;
+}
+
+.social a:hover {
+  color: #F2121F;
+  text-shadow: 0 5px 10px #fff;
+}
+
+button {
+  width: 170px;
+  height: 80px;
+  position: absolute;
+  top:220%;
+  left:40% ;
+  font-size: 20px;
+  text-shadow:0 5px 10px rgb(224, 11, 11);
+  box-shadow: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid black;
+  color: #f3f23f;
+  border-radius: 20px;
+
+}
+
+button:hover {
+  color: #F2121F;
+  text-shadow: 0 5px 10px #fff;
+
+}
